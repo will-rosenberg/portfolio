@@ -6,7 +6,9 @@ function NavBar() {
     <div className="navbar">
       <Link to="/">Home</Link>
       {" | "}
-      <a href="https://app.williamrosenberg.com">Accent App</a>
+      <a href="https://app.williamrosenberg.com" target="_blank">
+        Accent App
+      </a>
     </div>
   );
 }
