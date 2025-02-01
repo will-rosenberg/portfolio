@@ -1,5 +1,6 @@
 .navbar {
   position: sticky;
+  top: 0;
   background-color: #000000;
   z-index: 1000; /* Ensure the navbar is above other content */
   color: rgb(194, 194, 194);
