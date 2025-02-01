@@ -15,7 +15,8 @@ export default function Home() {
         </a>
         , learning web development. <br />
         <br />
-        Already built an <Link to="/accentapp">MVP web app</Link> for my
+        Already built an{" "}
+        <a href="https://app.williamrosenberg.com">MVP web app</a> for my
         business which my clients are using. <br />
         <br />
         Seeking a front-end web development job (10-30 hrs/wk) while continuing
