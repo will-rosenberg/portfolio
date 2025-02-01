@@ -15,8 +15,10 @@ export default function Home() {
         , learning web development. <br />
         <br />
         Already built an{" "}
-        <a href="https://app.williamrosenberg.com">MVP web app</a> for my
-        business which my clients are using. <br />
+        <a href="https://app.williamrosenberg.com" target="_blank">
+          MVP web app
+        </a>{" "}
+        for my business which my clients are using. <br />
         <br />
         Seeking a front-end web development job (10-30 hrs/wk) while continuing
         to run my business, to:
