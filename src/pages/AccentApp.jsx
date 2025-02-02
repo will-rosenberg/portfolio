@@ -115,8 +115,8 @@ export default function AccentApp() {
           <li>
             Yet, I have continued to prioritize the business (customer
             acquisition and fulfillment, independent of software) over software
-            development, to keep the lights on. And I have distributed the
-            software development over time, accordingly.
+            development, to make sure the bills get paid. And I have distributed
+            the software development over time, accordingly.
           </li>
           <li>
             Anyone who hires me to develop software for them will benefit from
