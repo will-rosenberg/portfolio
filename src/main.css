@@ -13,6 +13,20 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.maindiv {
+  /* border: 2px solid white; */
+  min-width: 350px;
+  max-width: 800px;
+  padding: 0px 20px 20px 20px;
+  margin: 10px auto;
+  border-radius: 10px;
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); */
+}
+
+.skinnierdiv {
+  max-width: 580px;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -32,6 +46,11 @@ body {
 
 h1 {
   font-size: 3.2em;
+  line-height: 1.1;
+}
+
+h2 {
+  font-size: 1.4em;
   line-height: 1.1;
 }
 

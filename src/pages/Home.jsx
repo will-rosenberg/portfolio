@@ -1,8 +1,8 @@
-import "./home.css";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
-    <div>
+    <div className="maindiv">
       <h1>Will Rosenberg</h1>
       <h2>
         Mechanical Engineer → Accent Coach, Business Owner, Software Developer
@@ -10,15 +10,12 @@ export default function Home() {
       <p>
         Multilingual mechanical engineer with my own{" "}
         <a href="https://instagram.com/SimpleAmericanAccent" target="_blank">
-          accent coaching company
+          accent coaching company{" "}
         </a>
-        , learning web development. <br />
+        (200k+ IG followers), learning web development. <br />
         <br />
-        Already built an{" "}
-        <a href="https://app.williamrosenberg.com" target="_blank">
-          MVP web app
-        </a>{" "}
-        for my business which my clients are using. <br />
+        Already built a full stack <Link to="/accentapp">MVP web app</Link> for
+        my business which my clients are using. <br />
         <br />
         Seeking a front-end web development job (10-30 hrs/wk) while continuing
         to run my business, to:
