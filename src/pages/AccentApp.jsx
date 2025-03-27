@@ -97,33 +97,8 @@ export default function AccentApp() {
         </blockquote>
         <p>
           According to my time tracking software, I believe I&apos;ve spent 200+
-          hours building this app so far, since August 2024. That&apos;s a
-          pretty high cost, but:
+          hours building this app so far, since August 2024.
         </p>
-        <ol>
-          <li>
-            A lot of this has been ignorance debt. Learning. This is my first
-            time learning many of the skills I needed to build this app (see
-            below). I pay this cost once, and all my future effort will be
-            faster, higher quality, and can sometimes directly reuse what
-            I&apos;ve already built.
-          </li>
-          <li>
-            I believe this software project will unlock significant long term
-            value in my business and is worth a significant upfront investment.
-          </li>
-          <li>
-            Yet, I have continued to prioritize the business (customer
-            acquisition and fulfillment, independent of software) over software
-            development, to make sure the bills get paid. And I have distributed
-            the software development over time, accordingly.
-          </li>
-          <li>
-            Anyone who hires me to develop software for them will benefit from
-            me already having paid down significant ignorance debt on my own
-            time, and my focus on creating business value above all.
-          </li>
-        </ol>
       </div>
 
       <br />
@@ -139,20 +114,17 @@ export default function AccentApp() {
           <li>
             Frontend:
             <ul>
-              <li>Vanilla JavaScript, HTML, and CSS</li>
-              <li>Currently updating to React</li>
-              <li>Future: native mobile app</li>
+              <li>React, Zustand, shadcn/ui</li>
             </ul>
           </li>
           <li>
             Backend:
             <ul>
-              <li>Express (started in vanilla Node, then updated)</li>
+              <li>Express/Node</li>
               <li>Deployed from GitHub to Render</li>
-              <li>Airtable as a database</li>
+              <li>Airtable as a database (migrating to Postgres & Prisma)</li>
               <li>Amazon S3 to store audio & JSON</li>
               <li>Auth0 for authentication</li>
-              <li>Soon: Postgres and better testing</li>
             </ul>
           </li>
         </ul>
@@ -179,7 +151,7 @@ export default function AccentApp() {
             See possible spellings (& examples) for key vowels and consonants
           </li>
           <li>
-            Outside of app: view Airtable interface to:
+            Accent statistics:
             <ul>
               <li>Discover your most frequent accent issues</li>
               <li>See which exact words these issues occurred in</li>
