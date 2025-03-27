@@ -209,11 +209,8 @@ export default function AccentApp() {
           <li>
             Better Stats/Visualization
             <ul>
-              <li>
-                Bring accent stats in-app, so Airtable interface not needed
-              </li>
               <li>Apply statistics/data science to get better insights</li>
-              <li>Create visualizations/dashboard & filtering</li>
+              <li>Create visualizations/dashboard & better filtering</li>
               <li>Stoplight system (green, yellow, red)</li>
               <li>Show progress over time</li>
             </ul>
@@ -230,7 +227,17 @@ export default function AccentApp() {
             </ul>
           </li>
 
-          <li>Better in-app onboarding for how to use the app</li>
+          <li>
+            Onboarding{" "}
+            <ul>
+              <li>Better in-app onboarding for how to use the app</li>
+              <li>Onboarding for accent training processes in general</li>
+              <li>
+                Possibility of adding core educational content / course(s)
+                within the app (& integrating with interactive training/testing)
+              </li>
+            </ul>
+          </li>
         </ul>
 
         <p>Challenges:</p>
