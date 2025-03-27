@@ -8,10 +8,10 @@ function App() {
   return (
     <>
       <NavBar />
+      <Analytics />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/accentapp" element={<AccentApp />} />
-        <Analytics />
       </Routes>
     </>
   );
