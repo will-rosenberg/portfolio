@@ -131,10 +131,7 @@ export default function AccentApp() {
         <p>Features:</p>
         <ul>
           <li>User login/logout, password set/reset via email</li>
-          <li>
-            Rough first version of in-app onboarding for how to use the app (the
-            default transcript itself is an explanation of the app)
-          </li>
+          <li>Keyboard shortcuts modal</li>
           <li>See which transcriptions you have access to</li>
           <li>
             Select & load transcription and associated audio & accent feedback
@@ -179,6 +176,10 @@ export default function AccentApp() {
                 etc
               </li>
               <li>Include data about severity of each accent issue instance</li>
+              <li>
+                Enable A/B comparisons of accent performance over time, to look
+                for statistically significant changes
+              </li>
             </ul>
           </li>
           <li>
