@@ -16,13 +16,13 @@ export default function Home() {
         <br />
         Already built a full stack <Link to="/accentapp">MVP web app</Link> for
         my business which my clients are using. <br />
-        <br />
+        {/* <br />
         Seeking a front-end web development job (10-30 hrs/wk) while continuing
         to run my business, to:
         <ol>
           <li>build my skills further</li>
           <li>stabilize my income.</li>
-        </ol>
+        </ol> */}
       </p>
       <h3>Personal Stuff</h3>
       <a href="https://github.com/will-rosenberg" target="_blank">
