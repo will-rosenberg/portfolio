@@ -12,10 +12,11 @@ export default function Home() {
         <a href="https://instagram.com/SimpleAmericanAccent" target="_blank">
           accent coaching company{" "}
         </a>
-        (200k+ IG followers), learning web development. <br />
+        (200k+ IG followers).
         <br />
-        Already built a full stack MVP web app for my business which my clients
-        are using. <br />
+        <br />
+        Built a full stack web app for my business to help my clients better.
+        <br />
         {/* <br />
         Seeking a front-end web development job (10-30 hrs/wk) while continuing
         to run my business, to:
