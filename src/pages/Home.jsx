@@ -14,8 +14,8 @@ export default function Home() {
         </a>
         (200k+ IG followers), learning web development. <br />
         <br />
-        Already built a full stack <Link to="/accentapp">MVP web app</Link> for
-        my business which my clients are using. <br />
+        Already built a full stack MVP web app for my business which my clients
+        are using. <br />
         {/* <br />
         Seeking a front-end web development job (10-30 hrs/wk) while continuing
         to run my business, to:
