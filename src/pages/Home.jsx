@@ -15,7 +15,11 @@ export default function Home() {
         (200k+ IG followers).
         <br />
         <br />
-        Built a full stack web app for my business to help my clients better.
+        Built a full stack web app for my business to help my clients better.{" "}
+        <a href="https://youtu.be/ne7TSr-LaXk" target="_blank">
+          Watch the demo
+        </a>
+        .
         <br />
         {/* <br />
         Seeking a front-end web development job (10-30 hrs/wk) while continuing
