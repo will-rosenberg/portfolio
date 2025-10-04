@@ -16,7 +16,7 @@ export default function Home() {
         <br />
         <br />
         Built a full stack web app for my business to help my clients better.{" "}
-        <a href="https://youtu.be/ne7TSr-LaXk" target="_blank">
+        <a href="https://youtu.be/1I5FPCRFm7o" target="_blank">
           Watch the demo
         </a>
         .
