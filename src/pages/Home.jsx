@@ -5,7 +5,7 @@ export default function Home() {
     <div className="maindiv">
       <h1>Will Rosenberg</h1>
       <h2>
-        Mechanical Engineer → Accent Coach, Business Owner, Software Developer
+        Mechanical Engineer → Full-Stack Developer, Business Owner, Accent Coach
       </h2>
       <p>
         Multilingual mechanical engineer with my own{" "}
