@@ -22,19 +22,20 @@ export default function Home() {
         >
           full-stack web app
         </a>{" "}
-        that my accent coaching clients use.{" "}
-        <a href="https://youtu.be/1I5FPCRFm7o" target="_blank">
-          Watch the demo
-        </a>
-        .
-        <br />
-        {/* <br />
-        Seeking a front-end web development job (10-30 hrs/wk) while continuing
-        to run my business, to:
-        <ol>
-          <li>build my skills further</li>
-          <li>stabilize my income.</li>
-        </ol> */}
+        that my accent coaching clients use.
+        <ul>
+          <li>
+            <a href="https://youtu.be/1I5FPCRFm7o" target="_blank">
+              Watch the demo
+            </a>
+          </li>
+          <li>
+            <a href="https://app.simpleamericanaccent.com" target="_blank">
+              Try the app
+            </a>{" "}
+            (username: demo@simpleamericanaccent.com, password: Demo123!)
+          </li>
+        </ul>
       </p>
       <h3>Personal Stuff</h3>
       <a href="https://github.com/will-rosenberg" target="_blank">
