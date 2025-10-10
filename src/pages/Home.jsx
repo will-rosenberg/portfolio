@@ -15,7 +15,14 @@ export default function Home() {
         (200k+ IG followers).
         <br />
         <br />
-        Built a full stack web app that my accent coaching clients use.{" "}
+        Built a{" "}
+        <a
+          href="https://github.com/SimpleAmericanAccent/saa-app-web"
+          target="_blank"
+        >
+          full-stack web app
+        </a>{" "}
+        that my accent coaching clients use.{" "}
         <a href="https://youtu.be/1I5FPCRFm7o" target="_blank">
           Watch the demo
         </a>
