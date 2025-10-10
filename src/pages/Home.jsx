@@ -26,7 +26,7 @@ export default function Home() {
         <div className="app-showcase">
           <div className="app-links">
             <a href="https://youtu.be/1I5FPCRFm7o" target="_blank">
-              📹 Watch the 5-minute demo
+              📹 Watch 5-min demo
             </a>
             <a
               href="https://github.com/SimpleAmericanAccent/saa-app-web"
