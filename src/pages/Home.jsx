@@ -23,40 +23,72 @@ export default function Home() {
           full-stack web app
         </a>{" "}
         that my accent coaching clients use.
-        <ul>
-          <li>
+        <div className="app-showcase">
+          <div className="app-links">
             <a href="https://youtu.be/1I5FPCRFm7o" target="_blank">
-              Watch the demo
+              📹 Watch the 5-minute demo
             </a>
-          </li>
-          <li>
-            <a href="https://app.simpleamericanaccent.com" target="_blank">
-              Try the app
-            </a>{" "}
-            (username: demo@simpleamericanaccent.com, password: Demo123!)
-          </li>
-        </ul>
+            <a
+              href="https://github.com/SimpleAmericanAccent/saa-app-web"
+              target="_blank"
+            >
+              🔍 Explore the repo
+            </a>
+          </div>
+
+          <div className="app-demo-container">
+            <button
+              onClick={() =>
+                window.open("https://app.simpleamericanaccent.com", "_blank")
+              }
+              className="demo-button"
+            >
+              <strong>Try the app</strong>
+            </button>
+            <div className="credentials">
+              <div className="credential-item">
+                <span className="credential-label">Email:</span>
+                <code>demo@simpleamericanaccent.com</code>
+              </div>
+              <div className="credential-item">
+                <span className="credential-label">Password:</span>
+                <code>Demo123!</code>
+              </div>
+            </div>
+          </div>
+        </div>
       </p>
-      <h3>Personal Stuff</h3>
-      <a href="https://github.com/will-rosenberg" target="_blank">
-        GitHub
-      </a>
-      <br />
-      <a href="https://www.linkedin.com/in/wrosenberg/" target="_blank">
-        LinkedIn
-      </a>
-      {/* <br />
-      <a href="">Resume</a> */}
-      <h3>Business Stuff (Simple American Accent)</h3>
-      <a href="https://github.com/SimpleAmericanAccent" target="_blank">
-        GitHub
-      </a>
-      <br />
-      <a href="https://instagram.com/SimpleAmericanAccent" target="_blank">
-        Instagram
-      </a>
-      {/* <br />
-      <a href="">Accent Mentorship Sales Page</a> */}
+
+      <footer className="footer">
+        <div className="footer-section">
+          <h3>Personal</h3>
+          <div className="footer-links">
+            <a href="https://github.com/will-rosenberg" target="_blank">
+              GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/wrosenberg/" target="_blank">
+              LinkedIn
+            </a>
+            {/* <a href="">Resume</a> */}
+          </div>
+        </div>
+
+        <div className="footer-section">
+          <h3>Business</h3>
+          <div className="footer-links">
+            <a href="https://github.com/SimpleAmericanAccent" target="_blank">
+              GitHub
+            </a>
+            <a
+              href="https://instagram.com/SimpleAmericanAccent"
+              target="_blank"
+            >
+              Instagram
+            </a>
+            {/* <a href="">Accent Mentorship Sales Page</a> */}
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }
