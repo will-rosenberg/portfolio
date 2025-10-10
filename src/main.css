@@ -61,6 +61,10 @@ code {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   display: flex;
   width: 400px;
+  position: absolute;
+  bottom: 1rem;
+  left: 0;
+  right: 0;
   /* gap: 40px; */
   /* flex-wrap: wrap; */
 }
