@@ -28,7 +28,7 @@ export default async function handler(req, res) {
 
     // Add event data if it's a custom event
     if (event) {
-      plausibleData.name = event;
+      plausibleData.event_name = event;
       if (props && Object.keys(props).length > 0) {
         plausibleData.props = props;
       }
