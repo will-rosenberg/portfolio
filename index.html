@@ -7,12 +7,22 @@
     <title>Will Rosenberg - Full-Stack Developer</title>
 
     <!-- Privacy-friendly analytics by Plausible (First-party) -->
-    <script
-      async
-      src="/js/script.js"
-      data-domain="pa-2kqd18g42N-K_CFgeHu10"
-    ></script>
+    <script async src="p/js/script.js"></script>
     <script>
+      (window.plausible =
+        window.plausible ||
+        function () {
+          (plausible.q = plausible.q || []).push(arguments);
+        }),
+        (plausible.init =
+          plausible.init ||
+          function (i) {
+            plausible.o = i || {};
+          });
+      plausible.init({
+        endpoint: "p/api/event",
+      });
+
       // Exclude /plausible page from tracking
       if (window.location.pathname === "/plausible") {
         window.plausible_ignore = true;
