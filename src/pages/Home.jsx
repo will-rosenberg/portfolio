@@ -19,7 +19,7 @@ export default function Home() {
         </a>{" "}
         in 2018. (200k+ IG followers).
       </p>
-      <p style={{ textAlign: "center", marginTop: "30px" }}>
+      <p style={{ textAlign: "center", marginTop: "25px" }}>
         Built a full-stack web app used in production by my accent coaching
         clients
         <br />
@@ -27,7 +27,7 @@ export default function Home() {
           style={{
             fontSize: "0.8em",
             color: "#aaa",
-            marginTop: "1.5rem",
+            marginTop: "1.3rem",
             display: "block",
             fontStyle: "italic",
           }}
