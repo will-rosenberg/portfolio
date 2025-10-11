@@ -43,8 +43,14 @@
         "Content-Type": "application/json",
       },
       body: JSON.stringify(data),
-    }).catch(function () {
-      // Silently fail if proxy is not available
+    }).catch(function (error) {
+      // Log error in development
+      if (
+        window.location.hostname === "localhost" ||
+        window.location.hostname === "127.0.0.1"
+      ) {
+        console.warn("Plausible tracking error:", error);
+      }
     });
   }
 
@@ -65,8 +71,14 @@
         "Content-Type": "application/json",
       },
       body: JSON.stringify(data),
-    }).catch(function () {
-      // Silently fail if proxy is not available
+    }).catch(function (error) {
+      // Log error in development
+      if (
+        window.location.hostname === "localhost" ||
+        window.location.hostname === "127.0.0.1"
+      ) {
+        console.warn("Plausible event tracking error:", error);
+      }
     });
   };
 
