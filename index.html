@@ -22,6 +22,12 @@
           function (i) {
             plausible.o = i || {};
           });
+
+      // Exclude /plausible page from tracking
+      if (window.location.pathname === "/plausible") {
+        window.plausible_ignore = true;
+      }
+
       plausible.init();
     </script>
   </head>
