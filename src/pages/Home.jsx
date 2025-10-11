@@ -17,11 +17,13 @@ export default function Home() {
         <a href="https://instagram.com/SimpleAmericanAccent" target="_blank">
           Simple American Accent
         </a>{" "}
-        in 2018. (200k+ IG followers).
+        in 2018.
+        <br />
+        200k+ IG followers. 400+ clients.
       </p>
       <p style={{ textAlign: "center", marginTop: "25px" }}>
         Built a full-stack web app used in production by my accent coaching
-        clients
+        clients:
         <br />
         <span
           style={{
