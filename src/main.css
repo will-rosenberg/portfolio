@@ -59,14 +59,16 @@ code {
   margin: 20px auto 0px auto;
   padding-top: 10px;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 100px;
   display: flex;
   width: 400px;
   position: absolute;
-  bottom: 1rem;
+  bottom: 0rem;
   left: 0;
   right: 0;
   /* gap: 40px; */
   /* flex-wrap: wrap; */
+  justify-content: center;
 }
 
 .footer-section {
@@ -83,8 +85,8 @@ code {
 
 .footer-links {
   display: flex;
-  flex-direction: column;
-  gap: 4px;
+  flex-direction: row;
+  gap: 20px;
 }
 
 .footer-links a {
@@ -107,6 +109,7 @@ code {
   margin-bottom: 15px !important;
   font-size: 1.1em;
   padding: 0.8em 2em;
+  animation: ringPulse 3s infinite;
 }
 
 .credentials {
@@ -188,7 +191,7 @@ button {
   animation: subtleShake 3s 1;
 }
 button:hover {
-  background-color: #000bda;
+  background-color: #454bb8;
   /* border: 10px solid #adb1ff; */
   transform: scale(1.05);
 }
@@ -214,6 +217,15 @@ button:focus-visible {
   }
   92% {
     transform: rotate(-1deg);
+  }
+}
+
+@keyframes ringPulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(100, 108, 255, 0);
+  }
+  50% {
+    box-shadow: 0 0 0 4px rgba(133, 133, 133, 0.4);
   }
 }
 
@@ -306,7 +318,7 @@ button:focus-visible {
     width: 100%;
     max-width: 100%;
     flex-direction: row;
-    gap: 15px;
+    /* gap: 15px; */
     margin: 15px auto 0px auto;
     padding-top: 10px;
   }
@@ -323,7 +335,7 @@ button:focus-visible {
 
   .footer-links {
     align-items: center;
-    gap: 3px;
+    /* gap: 3px; */
   }
 
   .footer-links a {
@@ -417,7 +429,8 @@ button:focus-visible {
   .footer {
     margin: 10px auto 0px auto;
     padding-top: 8px;
-    gap: 10px;
+    /* gap: 10px; */
+    justify-content: center;
   }
 
   .footer-section h3 {
