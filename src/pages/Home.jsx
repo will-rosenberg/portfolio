@@ -16,7 +16,7 @@ export default function Home() {
         Mechanical Engineer
         <br />↓
         <br />
-        Full-Stack Developer & Accent Coach
+        Full-Stack Engineer & Accent Coach
       </h2>
       <p style={{ textAlign: "center", marginTop: "30px" }}>
         Founded{" "}
