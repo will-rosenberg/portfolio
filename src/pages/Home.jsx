@@ -115,7 +115,7 @@ export default function Home() {
             </svg>
           </a>
           <a
-            href="https://linkedin.com/in/wrosenberg/"
+            href="https://linkedin.com/in/will-rosenberg/"
             target="_blank"
             title="LinkedIn"
             onClick={() =>
