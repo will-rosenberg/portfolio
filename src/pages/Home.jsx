@@ -13,9 +13,6 @@ export default function Home() {
         Will Rosenberg
       </h1>
       <h2 style={{ textAlign: "center" }}>
-        Mechanical Engineer
-        <br />↓
-        <br />
         Full-Stack Engineer & Accent Coach
       </h2>
       <p style={{ textAlign: "center", marginTop: "30px" }}>
