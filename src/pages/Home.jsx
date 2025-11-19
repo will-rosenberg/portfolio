@@ -21,7 +21,7 @@ export default function Home() {
         <h1
           style={{
             textAlign: "center",
-            marginBottom: "35px",
+            marginBottom: "25px",
             marginTop: "0px",
           }}
         >
@@ -30,7 +30,7 @@ export default function Home() {
         <h2 style={{ textAlign: "center" }}>
           Full-Stack Engineer & Accent Coach
         </h2>
-        <p style={{ textAlign: "center", marginTop: "30px" }}>
+        <p style={{ textAlign: "center", marginTop: "20px" }}>
           Founded{" "}
           <a
             href="https://instagram.com/SimpleAmericanAccent"
@@ -45,15 +45,15 @@ export default function Home() {
           <br />
           200k+ IG followers. 400+ clients.
         </p>
-        <p style={{ textAlign: "center", marginTop: "25px" }}>
+        <p style={{ textAlign: "center", marginTop: "20px" }}>
           Built a full-stack web app used in production by my accent coaching
           clients:
           <br />
           <span
             style={{
-              fontSize: "0.8em",
+              fontSize: "1em",
               color: "#aaa",
-              marginTop: "1.3rem",
+              marginTop: "1rem",
               display: "block",
               fontStyle: "italic",
             }}
