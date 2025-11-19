@@ -119,7 +119,7 @@ export default function Resume() {
             >
               <ul>
                 <li>
-                  Built a full-stack web app used in production by my accent
+                  Built full-stack web app used in production by my accent
                   coaching clients
                 </li>
                 <li>200k+ Instagram followers, 400+ clients</li>
@@ -150,13 +150,33 @@ export default function Resume() {
                   Led design & testing of automated control system for 777X
                   airplane air conditioning system
                 </li>
+                <li>
+                  Project managed test bench build (1k+ signals, 50+
+                  actuators/sensors, multi-system integration)
+                </li>
+                <li>
+                  Created & executed tests, 10+ PRs, helped update dashboards
+                  for pilots & maintenance
+                </li>
+                <li>
+                  Top-to-bottom knowledge of requirements tree/documentation
+                </li>
+                <li>Regular collaboration with supplier & internal teams</li>
               </ul>
             </ResumeExperienceorEducationItem>
             <ResumeExperienceorEducationItem
               role="Engineering Internships"
               company="Ethicon Endo-Surgery, Case New Holland, GE Aviation"
               dates="2012-2013"
-            ></ResumeExperienceorEducationItem>
+            >
+              <ul>
+                <li>
+                  Developed remote data acquisition/controls for hydraulic test
+                  bench, using LabVIEW & NI cDAQ
+                </li>
+                <li>16+ hours of Design of Experiments training</li>
+              </ul>
+            </ResumeExperienceorEducationItem>
           </ResumeSection>
           <ResumeSection title="Skills">
             <ul>
