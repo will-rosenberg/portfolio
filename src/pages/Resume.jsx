@@ -119,15 +119,16 @@ export default function Resume() {
             >
               <ul>
                 <li>
-                  Built full-stack web app used in production by my accent
-                  coaching clients
+                  Built full-stack web app used in production by paying clients
+                  ($40k+ USD)
                 </li>
                 <li>200k+ Instagram followers, 400+ clients</li>
                 <li>
-                  Continuously getting client feedback & improving the app
+                  React, Node, Express, PostgreSQL - deployed on Render with
+                  basic CI/CD
                 </li>
-                <li>React, Node, Express, PostgreSQL - deployed on Render</li>
-                <li>Starting to test with Jest & Storybook</li>
+                <li>Continuous client feedback & app improvements</li>
+                <li>Currently adding tests with Jest & Storybook</li>
                 <li>
                   <a
                     href="https://williamrosenberg.com?utm_source=resume"
@@ -155,15 +156,15 @@ export default function Resume() {
                   actuators/sensors, multi-system integration)
                 </li>
                 <li>
-                  Created & executed tests, 10+ PRs, helped update dashboards
-                  for pilots & maintenance
+                  Created & ran tests, PRs, helped update dashboards for pilots
+                  & maintenance
                 </li>
                 <li>
                   Top-to-bottom knowledge of requirements tree/documentation
                 </li>
                 <li>
-                  Regular collaboration with supplier & internal teams (remote &
-                  in-person)
+                  Regular collaboration with supplier, developers, & internal
+                  teams (remote & in-person)
                 </li>
               </ul>
             </ResumeExperienceorEducationItem>
