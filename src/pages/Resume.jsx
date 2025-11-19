@@ -1,5 +1,3 @@
-// import { Link } from "react-router-dom";
-
 export default function Resume() {
   return (
     <>
@@ -112,13 +110,13 @@ export default function Resume() {
           </div>
         </div>
         <div className="resume-body">
-          <div className="resume-section">
-            <h2>Experience</h2>
-            <div className="resume-experience-item">
-              <p>
-                Founder & Full-Stack Engineer - Simple American Accent -
-                Chicago, IL - 2018-Present
-              </p>
+          <ResumeSection title="Experience">
+            <ResumeExperienceorEducationItem
+              role="Founder & Full-Stack Engineer"
+              company="Simple American Accent"
+              location="Chicago, IL"
+              dates="2018-Present"
+            >
               <ul>
                 <li>
                   Built a full-stack web app used in production by my accent
@@ -140,70 +138,122 @@ export default function Resume() {
                   </a>
                 </li>
               </ul>
-            </div>
-            <div className="resume-experience-item">
-              <p>
-                Systems Engineer - Boeing Commercial Airplanes - Everett, WA -
-                2015-2018
-              </p>
+            </ResumeExperienceorEducationItem>
+            <ResumeExperienceorEducationItem
+              role="Systems Engineer"
+              company="Boeing Commercial Airplanes"
+              location="Everett, WA"
+              dates="2015-2018"
+            >
               <ul>
                 <li>
                   Led design & testing of automated control system for 777X
                   airplane air conditioning system
                 </li>
               </ul>
-            </div>
-            <div className="resume-experience-item">
-              <p>
-                Engineering Internships - Ethicon Endo-Surgery, Case New
-                Holland, GE Aviation - 2012-2013
-              </p>
-            </div>
-          </div>
-          <div className="resume-section">
-            <h2>Skills</h2>
-            <div className="resume-item">
-              <ul>
-                <li>
-                  Frontend: React, JavaScript, TypeScript, HTML, CSS, Tailwind,
-                  shadcn, MDX, Vite
-                </li>
-                <li>Backend: Node.js, Express, PostgreSQL, Prisma</li>
-                <li>Cloud & DevOps: AWS S3, Render, Cloudflare, Vercel</li>
-                <li>
-                  Testing & Tooling: Git, GitHub, npm, pnpm, Jest, Storybook,
-                  Postman, Prettier, ESLint, CI/CD
-                </li>
-                <li>AI-Assisted Engineering: Cursor, ChatGPT</li>
-                <li>Auth & Security: Auth0</li>
-                <li>
-                  Languages: English (native), Portuguese & Spanish (near-native
-                  in both)
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className="resume-section">
-            <h2>Education</h2>
-            <div className="resume-item">
-              <p>
-                BS in Mechanical Engineering - Iowa State University - Ames, IA
-                - 2010-2015
-              </p>
-            </div>
-          </div>
-          <div className="resume-section">
-            <h2>Certifications</h2>
-            <div className="resume-item">
-              <p>
-                Architecture and Systems Engineering: Models and Methods to
-                Manage Complex Systems - MIT Professional Education - 2017
-              </p>
-              <p>Spanish Level C2 - Instituto Cervantes - 2014</p>
-            </div>
-          </div>
+            </ResumeExperienceorEducationItem>
+            <ResumeExperienceorEducationItem
+              role="Engineering Internships"
+              company="Ethicon Endo-Surgery, Case New Holland, GE Aviation"
+              dates="2012-2013"
+            ></ResumeExperienceorEducationItem>
+          </ResumeSection>
+          <ResumeSection title="Skills">
+            <ul>
+              <li>
+                Frontend: React, JavaScript, TypeScript, HTML, CSS, Tailwind,
+                shadcn, MDX, Vite
+              </li>
+              <li>Backend: Node.js, Express, PostgreSQL, Prisma</li>
+              <li>Cloud & DevOps: AWS S3, Render, Cloudflare, Vercel</li>
+              <li>
+                Testing & Tooling: Git, GitHub, npm, pnpm, Jest, Storybook,
+                Postman, Prettier, ESLint, CI/CD
+              </li>
+              <li>AI-Assisted Engineering: Cursor, ChatGPT</li>
+              <li>Auth & Security: Auth0</li>
+              <li>
+                Languages: English (native), Portuguese & Spanish (near-native
+                in both)
+              </li>
+            </ul>
+          </ResumeSection>
+          <ResumeSection title="Education">
+            <ResumeExperienceorEducationItem
+              role="BS in Mechanical Engineering"
+              company="Iowa State University"
+              location="Ames, IA"
+              dates="2010-2015"
+            ></ResumeExperienceorEducationItem>
+          </ResumeSection>
+          <ResumeSection title="Certifications">
+            <ResumeCertificationItem
+              certification="Architecture and Systems Engineering: Models and Methods to Manage Complex Systems"
+              entity="MIT Professional Education"
+              dates="2017"
+            />
+            <ResumeCertificationItem
+              certification="Spanish Level C2"
+              entity="Instituto Cervantes"
+              dates="2014"
+            />
+          </ResumeSection>
         </div>
       </div>
     </>
+  );
+}
+
+function ResumeSection({ title = "Add Title Here", children }) {
+  return (
+    <div className="resume-section">
+      <h2>{title}</h2>
+      {children}
+    </div>
+  );
+}
+
+function ResumeExperienceorEducationItem({
+  role,
+  company,
+  location,
+  dates,
+  children,
+}) {
+  return (
+    <div className="resume-experience-item">
+      <p
+        style={{
+          display: "flex",
+          flexDirection: "row",
+          justifyContent: "space-between",
+        }}
+      >
+        <span>
+          {role} - {company} {location ? `- ${location}` : ""}
+        </span>
+        <span>{dates}</span>
+      </p>
+      {children}
+    </div>
+  );
+}
+
+function ResumeCertificationItem({ certification, entity, dates }) {
+  return (
+    <div className="resume-certification-item">
+      <p
+        style={{
+          display: "flex",
+          flexDirection: "row",
+          justifyContent: "space-between",
+        }}
+      >
+        <span>
+          {certification} - {entity}
+        </span>
+        <span>{dates}</span>
+      </p>
+    </div>
   );
 }
