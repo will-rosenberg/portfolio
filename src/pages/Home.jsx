@@ -13,7 +13,8 @@ export default function Home() {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        height: "100vh",
+        height: "100dvh",
+        overflow: "hidden",
       }}
     >
       <div className="maindiv">
