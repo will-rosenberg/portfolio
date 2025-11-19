@@ -5,6 +5,10 @@ export default function Resume() {
     <>
       <style>
         {`
+          @page {
+            size: 8.5in 11in;
+            margin: 0in;
+          }
           body {
             display: flex;
             justify-content: left;
