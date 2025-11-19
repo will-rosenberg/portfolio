@@ -12,7 +12,6 @@ export default function Resume() {
           body {
             display: flex;
             justify-content: left;
-            align-items: top;
             color: #000000;
             overflow-x: scroll;
             overflow-y: scroll;
@@ -26,22 +25,21 @@ export default function Resume() {
               box-sizing: border-box;
           }
           .resume-header {
-            text-align: center;
             margin-bottom: 0.3in;
             display: flex;
             flex-direction: row;
-            border: 1px solid #000000;
           }
           .resume-header-left {
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
             width: 65%;
+          }
+          .resume-header-left > * {
+            margin: 0;
           }
           .resume-header-right {
           text-align: left;
-            
           }
           .resume-body {
             display: flex;
@@ -53,9 +51,10 @@ export default function Resume() {
       <div className="resume-container">
         <div className="resume-header">
           <div className="resume-header-left">
-            {" "}
-            <h1 style={{ margin: 0 }}>Will Rosenberg</h1>
-            Full-Stack Engineer - Chicago, IL
+            <h1 style={{ fontSize: "3.5em" }}>Will Rosenberg</h1>
+            <p style={{ fontSize: "1.2em" }}>
+              Full-Stack Engineer - Chicago, IL
+            </p>
           </div>
           <div className="resume-header-right">
             <table>
