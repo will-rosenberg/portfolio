@@ -44,7 +44,21 @@ export default function Resume() {
           .resume-body {
             display: flex;
             flex-direction: column;
-            gap: 0.2in;
+            gap: 0.1in;
+          }
+          .resume-body h2 {
+            margin-bottom: 0.05in;
+          }
+          .resume-body p {
+            margin-top: 0;
+            margin-bottom: 0.05in;
+          }
+          .resume-body ul {
+            margin-top: 0;
+            margin-bottom: 0;
+          }
+          .resume-experience-item + .resume-experience-item {
+            margin-top: 0.15in;
           }
         `}
       </style>
@@ -100,7 +114,7 @@ export default function Resume() {
         <div className="resume-body">
           <div className="resume-section">
             <h2>Experience</h2>
-            <div className="resume-item">
+            <div className="resume-experience-item">
               <p>
                 Founder & Full-Stack Engineer - Simple American Accent -
                 Chicago, IL - 2018-Present
@@ -127,7 +141,7 @@ export default function Resume() {
                 </li>
               </ul>
             </div>
-            <div className="resume-item">
+            <div className="resume-experience-item">
               <p>
                 Systems Engineer - Boeing Commercial Airplanes - Everett, WA -
                 2015-2018
@@ -139,7 +153,7 @@ export default function Resume() {
                 </li>
               </ul>
             </div>
-            <div className="resume-item">
+            <div className="resume-experience-item">
               <p>
                 Engineering Internships - Ethicon Endo-Surgery, Case New
                 Holland, GE Aviation - 2012-2013
