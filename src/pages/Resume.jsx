@@ -111,7 +111,7 @@ export default function Resume() {
                 <li>
                   Continuously getting client feedback & improving the app
                 </li>
-                <li>React, Node, Express, PostgreSQL</li>
+                <li>React, Node, Express, PostgreSQL - deployed on Render</li>
                 <li>Starting to test with Jest & Storybook</li>
                 <li>
                   <a
