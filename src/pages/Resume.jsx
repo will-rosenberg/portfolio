@@ -56,7 +56,11 @@ export default function Resume() {
               <tr>
                 <td>Portfolio:</td>
                 <td>
-                  <a href="https://williamrosenberg.com?utm_source=resume">
+                  <a
+                    href="https://williamrosenberg.com?utm_source=resume"
+                    target="_blank"
+                    rel="noopener"
+                  >
                     williamrosenberg.com
                   </a>
                 </td>
@@ -64,7 +68,11 @@ export default function Resume() {
               <tr>
                 <td>LinkedIn:</td>
                 <td>
-                  <a href="https://linkedin.com/in/will-rosenberg/">
+                  <a
+                    href="https://linkedin.com/in/will-rosenberg/"
+                    target="_blank"
+                    rel="noopener"
+                  >
                     will-rosenberg
                   </a>
                 </td>
@@ -72,7 +80,11 @@ export default function Resume() {
               <tr>
                 <td>GitHub:</td>
                 <td>
-                  <a href="https://github.com/will-rosenberg/">
+                  <a
+                    href="https://github.com/will-rosenberg/"
+                    target="_blank"
+                    rel="noopener"
+                  >
                     will-rosenberg
                   </a>
                 </td>
@@ -94,11 +106,17 @@ export default function Resume() {
                   coaching clients
                 </li>
                 <li>200k+ Instagram followers, 400+ clients</li>
-                <li>Created full-stack web app used by 20+ paid clients</li>
+                <li>
+                  Continuously getting client feedback & improving the app
+                </li>
                 <li>React, Node, Express, PostgreSQL</li>
                 <li>Starting to test with Jest & Storybook</li>
                 <li>
-                  <a href="https://williamrosenberg.com?utm_source=resume">
+                  <a
+                    href="https://williamrosenberg.com?utm_source=resume"
+                    target="_blank"
+                    rel="noopener"
+                  >
                     Click here for demo & repo access
                   </a>
                 </li>
@@ -128,7 +146,8 @@ export default function Resume() {
             <div className="resume-item">
               <ul>
                 <li>
-                  Frontend: React, JS, TS, HTML, CSS, Tailwind, shadcn, Vite
+                  Frontend: React, JavaScript, TypeScript, HTML, CSS, Tailwind,
+                  shadcn, Vite
                 </li>
                 <li>Backend: Node.js, Express, PostgreSQL, Prisma</li>
                 <li>Cloud & DevOps: AWS S3, Render, Cloudflare, Vercel</li>
@@ -139,7 +158,7 @@ export default function Resume() {
                 <li>Auth & Security: Auth0</li>
                 <li>
                   Languages: English (native), Portuguese (near-native), Spanish
-                  (near-native
+                  (near-native)
                 </li>
               </ul>
             </div>
@@ -158,9 +177,9 @@ export default function Resume() {
             <div className="resume-item">
               <p>
                 Architecture and Systems Engineering: Models and Methods to
-                Manage Complex Systems, MIT Professional Education - 2017
+                Manage Complex Systems - MIT Professional Education - 2017
               </p>
-              <p>Spanish Level C2, Instituto Cervantes - 2014</p>
+              <p>Spanish Level C2 - Instituto Cervantes - 2014</p>
             </div>
           </div>
         </div>
