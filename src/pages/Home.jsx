@@ -17,7 +17,13 @@ export default function Home() {
       }}
     >
       <div className="maindiv">
-        <h1 style={{ textAlign: "center", marginBottom: "35px" }}>
+        <h1
+          style={{
+            textAlign: "center",
+            marginBottom: "35px",
+            marginTop: "0px",
+          }}
+        >
           Will Rosenberg
         </h1>
         <h2 style={{ textAlign: "center" }}>
@@ -100,6 +106,7 @@ export default function Home() {
               </div>
             </div>
           </div>
+          <a href="/resume">View Resume</a>
         </p>
 
         <footer className="footer">
