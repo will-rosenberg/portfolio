@@ -249,7 +249,7 @@ function ResumeCertificationItem({ certification, entity, dates }) {
           justifyContent: "space-between",
         }}
       >
-        <span>
+        <span style={{ textIndent: "3em hanging" }}>
           {certification} - {entity}
         </span>
         <span>{dates}</span>
