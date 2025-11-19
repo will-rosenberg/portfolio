@@ -161,7 +161,10 @@ export default function Resume() {
                 <li>
                   Top-to-bottom knowledge of requirements tree/documentation
                 </li>
-                <li>Regular collaboration with supplier & internal teams</li>
+                <li>
+                  Regular collaboration with supplier & internal teams (remote &
+                  in-person)
+                </li>
               </ul>
             </ResumeExperienceorEducationItem>
             <ResumeExperienceorEducationItem
