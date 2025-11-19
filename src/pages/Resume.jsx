@@ -149,18 +149,19 @@ export default function Resume() {
               <ul>
                 <li>
                   Frontend: React, JavaScript, TypeScript, HTML, CSS, Tailwind,
-                  shadcn, Vite
+                  shadcn, MDX, Vite
                 </li>
                 <li>Backend: Node.js, Express, PostgreSQL, Prisma</li>
                 <li>Cloud & DevOps: AWS S3, Render, Cloudflare, Vercel</li>
                 <li>
                   Testing & Tooling: Git, GitHub, npm, pnpm, Jest, Storybook,
-                  CI/CD basics
+                  Postman, Prettier, ESLint, CI/CD
                 </li>
+                <li>AI-Assisted Engineering: Cursor, ChatGPT</li>
                 <li>Auth & Security: Auth0</li>
                 <li>
-                  Languages: English (native), Portuguese (near-native), Spanish
-                  (near-native)
+                  Languages: English (native), Portuguese & Spanish (near-native
+                  in both)
                 </li>
               </ul>
             </div>
@@ -169,8 +170,8 @@ export default function Resume() {
             <h2>Education</h2>
             <div className="resume-item">
               <p>
-                BS in Mechanical Engineering, Iowa State University - Ames, IA -
-                2010-2015
+                BS in Mechanical Engineering - Iowa State University - Ames, IA
+                - 2010-2015
               </p>
             </div>
           </div>
