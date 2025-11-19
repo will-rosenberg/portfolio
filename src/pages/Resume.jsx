@@ -7,9 +7,11 @@ export default function Resume() {
         {`
           body {
             display: flex;
-            justify-content: center;
-            align-items: center;
+            justify-content: left;
+            align-items: top;
             color: #000000;
+            overflow-x: scroll;
+            overflow-y: scroll;
           }
           .resume-container {
               width: 8.5in;
