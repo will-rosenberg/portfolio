@@ -124,28 +124,37 @@ export default function Resume() {
               dates="2018-Present"
             >
               <ul>
-                <li>200k+ Instagram followers, 400+ clients</li>
                 <li>
-                  Built & continuously improving{" "}
-                  <strong>full-stack web app used by paying clients</strong>{" "}
-                  ($40k+ USD)
+                  Built and maintain a{" "}
+                  <strong>full-stack web app used by clients</strong> for accent
+                  feedback & training
                 </li>
                 <li>
-                  React, Node, Express, PostgreSQL - deployed on Render with
-                  basic CI/CD
+                  Implemented with{" "}
+                  <strong>React, Node, Express, PostgreSQL, Prisma,</strong>{" "}
+                  deployed on <strong>Render</strong>
                 </li>
                 <li>
-                  4k+ manual accent annotations, 2k+ automated client trials,
-                  ongoing feedback from clients
+                  Developed UI & database for audio, transcripts, & thousands of
+                  accent annotations & quiz trials
                 </li>
-                <li>Currently adding tests with Jest & Storybook</li>
                 <li>
+                  Continuous product improvements based on client feedback,
+                  server logs, & real-world usage
+                </li>
+                <li>
+                  Work informed by 7 years helping 400+ clients and a 200k+
+                  audience
+                </li>
+                <li>Adding unit & accessibility tests with Jest & Storybook</li>
+                <li>
+                  Live app demo and source code available{" "}
                   <a
                     href="https://williamrosenberg.com?utm_source=resume"
                     target="_blank"
                     rel="noopener"
                   >
-                    Click here for demo & repo access
+                    here
                   </a>
                 </li>
               </ul>
