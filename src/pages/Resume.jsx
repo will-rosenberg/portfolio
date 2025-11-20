@@ -143,7 +143,7 @@ export default function Resume() {
                 <li>
                   Built and maintain a{" "}
                   <strong>full-stack web app used by clients</strong> for accent
-                  feedback & training
+                  feedback and training
                 </li>
                 <li>
                   Implemented with <strong>React</strong>, <strong>Node</strong>
@@ -191,7 +191,7 @@ export default function Resume() {
                 </li>
                 <li>
                   <strong>Project-managed HIL test bench build</strong> (1k+
-                  signals, 50+ actuators/sensors, integration)
+                  signals, 50+ actuators/sensors, system integration)
                 </li>
                 <li>
                   Wrote and ran validation tests, reviewed engineering changes
@@ -217,7 +217,7 @@ export default function Resume() {
             >
               <ul>
                 <li>
-                  Developed data acquisition & control logic for a lab test
+                  Developed data acquisition and control logic for a lab test
                   system using LabVIEW
                 </li>
                 <li>
@@ -266,7 +266,7 @@ export default function Resume() {
           </ResumeSection>
           <ResumeSection title="Certifications">
             <ResumeCertificationItem
-              certification="Architecture and Systems Engineering: Models and Methods to Manage Complex Systems"
+              certification="Architecture and Systems Engineering"
               entity="MIT Professional Education"
               dates="2017"
             />
