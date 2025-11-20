@@ -15,12 +15,12 @@ export default function Resume() {
             overflow-y: scroll;
           }
           .resume-container {
-              width: 8.5in;
-              height: 11in;
-              padding: 0.5in;
-              background-color: #ffffff;
-              font-family: Arial, sans-serif;
-              box-sizing: border-box;
+            width: 8.5in;
+            height: 11in;
+            padding: 0.5in;
+            background-color: #ffffff;
+            font-family: Arial, sans-serif;
+            box-sizing: border-box;
           }
           .resume-header {
             display: flex;
@@ -28,19 +28,34 @@ export default function Resume() {
             justify-content: center;
             width: 100%;
             text-align: center;
-            margin-bottom: 0.05in;
+            margin-bottom: 0.15in;
           }
           .resume-header > * {
             margin: 0;
           }
+          .resume-header h1 {
+            margin-top: 0in;
+            margin-bottom: 0in;
+            padding-top: 0in;
+            padding-bottom: 0in;
+            line-height: 0.9;
+            font-size: 3.5em;
+          }
           .resume-header p {
-            line-height: 1.3;
+            margin-top: 0in;
+            margin-bottom: 0.01in;
+            padding-top: 0in;
+            padding-bottom: 0in;
+            line-height: 1.1;
+            font-size: 1.3em;
           }
           .resume-header p + p {
             margin-top: 0in;
             margin-bottom: 0in;
             padding-top: 0in;
-            padding-bottom: 0in;  
+            padding-bottom: 0in;
+            line-height: 1; 
+            font-size: 1.1em;
           }
           .resume-body {
             display: flex;
@@ -87,10 +102,8 @@ export default function Resume() {
       </style>
       <div className="resume-container">
         <div className="resume-header">
-          <h1 style={{ fontSize: "3.5em" }}>Will Rosenberg</h1>
-          <p style={{ fontSize: "1em" }}>
-            Full-Stack Engineer (React, Node, Postgres) - Chicago, IL
-          </p>
+          <h1>Will Rosenberg</h1>
+          <p>Full-Stack Engineer - Chicago, IL</p>
           <p>
             <a
               href="https://williamrosenberg.com?utm_source=resume"
