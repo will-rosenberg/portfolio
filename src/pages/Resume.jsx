@@ -130,9 +130,9 @@ export default function Resume() {
                   feedback & training
                 </li>
                 <li>
-                  Implemented with{" "}
-                  <strong>React, Node, Express, PostgreSQL, Prisma,</strong>{" "}
-                  deployed on <strong>Render</strong>
+                  Implemented with <strong>React</strong>, <strong>Node</strong>
+                  , <strong>Express</strong>, <strong>PostgreSQL</strong>,{" "}
+                  <strong>Prisma</strong>, deployed on <strong>Render</strong>
                 </li>
                 <li>
                   Developed UI & database for audio, transcripts, & thousands of
@@ -146,7 +146,10 @@ export default function Resume() {
                   Work informed by 7 years helping 400+ clients and a 200k+
                   audience
                 </li>
-                <li>Adding unit & accessibility tests with Jest & Storybook</li>
+                <li>
+                  Adding unit & accessibility tests with <strong>Jest</strong> &{" "}
+                  <strong>Storybook</strong>
+                </li>
                 <li>
                   Live app demo and source code available{" "}
                   <a
