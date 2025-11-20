@@ -277,7 +277,7 @@ export default function Resume() {
               dates="2017"
             />
             <ResumeCertificationItem
-              certification="Spanish - DELE C2 - Mastery (near-native)"
+              certification="Spanish - DELE C2 (Mastery/near-native)"
               entity="Instituto Cervantes"
               dates="2014"
             />
