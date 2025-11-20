@@ -153,12 +153,12 @@ export default function Resume() {
                 </li>
                 <li>
                   Tech stack: <strong>React</strong>, <strong>Node</strong>,{" "}
-                  <strong>Express</strong>, <strong>PostgreSQL</strong>,{" "}
+                  <strong>Express</strong>, <strong>Postgres</strong>,{" "}
                   <strong>Prisma</strong>, deployed on <strong>Render</strong>
                 </li>
-                <li>
+                <li style={{ letterSpacing: "-0.002em" }}>
                   Developed UI components and data models for audio playback,
-                  transcript annotation, & quizzes
+                  transcript annotation, and quizzes
                 </li>
                 <li>
                   Iterate quickly based on client feedback, usage patterns, and
@@ -169,7 +169,7 @@ export default function Resume() {
                   and a 200k+ audience
                 </li>
                 <li>
-                  Expanding test coverage and accessibility checks with{" "}
+                  Expanding unit testing and accessibility checks with{" "}
                   <strong>Jest</strong> and <strong>Storybook</strong>
                 </li>
                 <li>
@@ -202,17 +202,17 @@ export default function Resume() {
                 <li>
                   Wrote and ran validation tests, reviewed engineering changes
                 </li>
-                <li>
+                <li style={{ letterSpacing: "-0.003em" }}>
                   Represented the system in alert/indication reviews, defining
-                  data shown to pilots & maintenance
+                  data shown to pilots and maintenance
                 </li>
                 <li>
-                  Developed end-to-end understanding of{" "}
-                  <strong>requirements, specifications, & documentation</strong>
+                  Developed end-to-end understanding of requirements,
+                  specifications, and documentation
                 </li>
                 <li>
-                  Collaborated with suppliers, developers, & cross-functional
-                  teams (remote & in-person)
+                  Collaborated with suppliers, developers, and cross-functional
+                  teams (remote and in-person)
                 </li>
               </ul>
             </ResumeExperienceorEducationItem>
@@ -237,11 +237,11 @@ export default function Resume() {
             <SkillsTable>
               <SkillsTableRow
                 label="Frontend"
-                skills="React, JavaScript/TypeScript, HTML, CSS, Tailwind, shadcn, MDX, Vite"
+                skills="React, JavaScript, TypeScript, HTML, CSS, Tailwind, shadcn, MDX, Vite"
               />
               <SkillsTableRow
                 label="Backend"
-                skills="Node.js, Express, PostgreSQL, Prisma, Auth0"
+                skills="Node.js, Express, PostgreSQL, Prisma, REST APIs, SQL, Auth0"
               />
               <SkillsTableRow
                 label="Cloud & DevOps"
