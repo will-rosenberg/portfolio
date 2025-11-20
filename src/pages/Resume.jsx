@@ -23,7 +23,7 @@ export default function Resume() {
               box-sizing: border-box;
           }
           .resume-header {
-            margin-bottom: 0.15in;
+            margin-bottom: 0.05in;
             display: flex;
             flex-direction: row;
           }
@@ -31,13 +31,28 @@ export default function Resume() {
             display: flex;
             flex-direction: column;
             justify-content: center;
-            width: 65%;
+            width: 100%;
+            text-align: center;
           }
           .resume-header-left > * {
             margin: 0;
           }
+          .resume-header-left p {
+            line-height: 1.3;
+          }
+          .resume-header-left p + p {
+            margin-top: 0in;
+            margin-bottom: 0in;
+            padding-top: 0in;
+            padding-bottom: 0in;  
+          }
           .resume-header-right {
           text-align: left;
+          display: none;
+          }
+          .resume-header-right td {
+            padding-top: 0in;
+            padding-bottom: 0in;
           }
           .resume-body {
             display: flex;
@@ -88,6 +103,31 @@ export default function Resume() {
             <h1 style={{ fontSize: "3.5em" }}>Will Rosenberg</h1>
             <p style={{ fontSize: "1em" }}>
               Full-Stack Engineer (React, Node, Postgres) - Chicago, IL
+            </p>
+            <p>
+              <a
+                href="https://williamrosenberg.com?utm_source=resume"
+                target="_blank"
+                rel="noopener"
+              >
+                williamrosenberg.com
+              </a>{" "}
+              |{" "}
+              <a
+                href="https://github.com/will-rosenberg/"
+                target="_blank"
+                rel="noopener"
+              >
+                github.com/will-rosenberg
+              </a>{" "}
+              |{" "}
+              <a
+                href="https://linkedin.com/in/will-rosenberg/"
+                target="_blank"
+                rel="noopener"
+              >
+                linkedin.com/in/will-rosenberg
+              </a>
             </p>
           </div>
           <div className="resume-header-right">
@@ -163,7 +203,7 @@ export default function Resume() {
                   a 200k+ audience
                 </li>
                 <li>
-                  Exapnding test coverage and accessibility checks with{" "}
+                  Expanding test coverage and accessibility checks with{" "}
                   <strong>Jest</strong> and <strong>Storybook</strong>
                 </li>
                 <li>
