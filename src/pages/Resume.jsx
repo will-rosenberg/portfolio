@@ -23,7 +23,7 @@ export default function Resume() {
               box-sizing: border-box;
           }
           .resume-header {
-            margin-bottom: 0.3in;
+            margin-bottom: 0.15in;
             display: flex;
             flex-direction: row;
           }
@@ -42,7 +42,7 @@ export default function Resume() {
           .resume-body {
             display: flex;
             flex-direction: column;
-            gap: 0.1in;
+            gap: 0in;
           }
           .resume-body h2 {
             margin-bottom: 0.05in;
@@ -55,8 +55,14 @@ export default function Resume() {
             margin-top: 0;
             margin-bottom: 0;
           }
+          .resume-section + .resume-section {
+            margin-top: 0.05in;
+          }
           .resume-experience-item + .resume-experience-item {
-            margin-top: 0.15in;
+            margin-top: 0.1in;
+          }
+          a {
+            text-decoration: underline;
           }
         `}
       </style>
@@ -64,8 +70,8 @@ export default function Resume() {
         <div className="resume-header">
           <div className="resume-header-left">
             <h1 style={{ fontSize: "3.5em" }}>Will Rosenberg</h1>
-            <p style={{ fontSize: "1.2em" }}>
-              Full-Stack Engineer - Chicago, IL
+            <p style={{ fontSize: "1em" }}>
+              Full-Stack Engineer (React, Node, Postgres) - Chicago, IL
             </p>
           </div>
           <div className="resume-header-right">
@@ -118,16 +124,20 @@ export default function Resume() {
               dates="2018-Present"
             >
               <ul>
+                <li>200k+ Instagram followers, 400+ clients</li>
                 <li>
-                  Built full-stack web app used in production by paying clients
+                  Built & continuously improving{" "}
+                  <strong>full-stack web app used by paying clients</strong>{" "}
                   ($40k+ USD)
                 </li>
-                <li>200k+ Instagram followers, 400+ clients</li>
                 <li>
                   React, Node, Express, PostgreSQL - deployed on Render with
                   basic CI/CD
                 </li>
-                <li>Continuous client feedback & app improvements</li>
+                <li>
+                  4k+ manual accent annotations, 2k+ automated client trials,
+                  ongoing feedback from clients
+                </li>
                 <li>Currently adding tests with Jest & Storybook</li>
                 <li>
                   <a
@@ -175,7 +185,7 @@ export default function Resume() {
             >
               <ul>
                 <li>
-                  Developed remote data acquisition/controls for hydraulic test
+                  Added remote data acquisition & controls to hydraulic test
                   bench, using LabVIEW & NI cDAQ
                 </li>
                 <li>16+ hours of Design of Experiments training</li>
@@ -207,6 +217,7 @@ export default function Resume() {
               role="BS in Mechanical Engineering"
               company="Iowa State University"
               location="Ames, IA"
+              gpa="3.45/4.00"
               dates="2010-2015"
             ></ResumeExperienceorEducationItem>
           </ResumeSection>
@@ -241,6 +252,7 @@ function ResumeExperienceorEducationItem({
   role,
   company,
   location,
+  gpa,
   dates,
   children,
 }) {
@@ -254,7 +266,8 @@ function ResumeExperienceorEducationItem({
         }}
       >
         <span>
-          {role} - {company} {location ? `- ${location}` : ""}
+          {role} - {company} {location ? `- ${location}` : ""}{" "}
+          {gpa ? `- GPA: ${gpa}` : ""}
         </span>
         <span>{dates}</span>
       </p>
