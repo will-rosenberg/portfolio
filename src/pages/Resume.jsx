@@ -64,6 +64,22 @@ export default function Resume() {
           a {
             text-decoration: underline;
           }
+          .skills-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-left: 0.25in;
+          }
+          .skills-table-row + .skills-table-row {
+            // border-top: 1px solid #cccccc;
+          }
+          .skills-table-row td + td {
+            // border-left: 1px solid #cccccc;
+            padding-left: 0in;
+          }
+          .skills-table-row td {
+            padding-top: 0in;
+            padding-bottom: 0in;
+          }
         `}
       </style>
       <div className="resume-container">
@@ -139,8 +155,8 @@ export default function Resume() {
                   accent annotations & quiz trials
                 </li>
                 <li>
-                  Continuous product improvements based on client feedback,
-                  server logs, & real-world usage
+                  Deliver continuous product improvements based on client
+                  feedback, actual usage, & server logs
                 </li>
                 <li>
                   Work informed by 7 years helping 400+ clients and a 200k+
@@ -170,22 +186,26 @@ export default function Resume() {
             >
               <ul>
                 <li>
-                  Led design & testing of automated control system for 777X
-                  airplane air conditioning system
+                  <strong>Led design and testing of automated controls</strong>{" "}
+                  for 777X airplane air conditioning system
                 </li>
                 <li>
-                  Project managed test bench build (1k+ signals, 50+
-                  actuators/sensors, multi-system integration)
+                  <strong>Project-managed HIL test bench build</strong> (1k+
+                  signals, 50+ actuators/sensors, integration)
                 </li>
                 <li>
-                  Created & ran tests, PRs, helped update dashboards for pilots
-                  & maintenance
+                  Wrote and ran validation tests, reviewed engineering changes
                 </li>
                 <li>
-                  Top-to-bottom knowledge of requirements tree/documentation
+                  Represented my system in alert/indication reviews, defining
+                  data shown to pilots & maintenance
                 </li>
                 <li>
-                  Regular collaboration with supplier, developers, & internal
+                  Developed end-to-end understanding of{" "}
+                  <strong>requirements, specifications, & documentation</strong>
+                </li>
+                <li>
+                  Collaborated with suppliers, developers, & cross-functional
                   teams (remote & in-person)
                 </li>
               </ul>
@@ -197,32 +217,40 @@ export default function Resume() {
             >
               <ul>
                 <li>
-                  Added remote data acquisition & controls to hydraulic test
-                  bench, using LabVIEW & NI cDAQ
+                  Added remote data acquisition & control to hydraulic test
+                  bench using LabVIEW & NI cDAQ
                 </li>
-                <li>16+ hours of Design of Experiments training</li>
+                <li>Completed Design of Experiments training</li>
               </ul>
             </ResumeExperienceorEducationItem>
           </ResumeSection>
           <ResumeSection title="Skills">
-            <ul>
-              <li>
-                Frontend: React, JavaScript, TypeScript, HTML, CSS, Tailwind,
-                shadcn, MDX, Vite
-              </li>
-              <li>Backend: Node.js, Express, PostgreSQL, Prisma</li>
-              <li>Cloud & DevOps: AWS S3, Render, Cloudflare, Vercel</li>
-              <li>
-                Testing & Tooling: Git, GitHub, npm, pnpm, Jest, Storybook,
-                Postman, Prettier, ESLint, CI/CD
-              </li>
-              <li>AI-Assisted Engineering: Cursor, ChatGPT</li>
-              <li>Auth & Security: Auth0</li>
-              <li>
-                Languages: English (native), Portuguese & Spanish (near-native
-                in both)
-              </li>
-            </ul>
+            <SkillsTable>
+              <SkillsTableRow
+                label="Frontend"
+                skills="React, JavaScript/TypeScript, HTML, CSS, Tailwind, shadcn, MDX, Vite"
+              />
+              <SkillsTableRow
+                label="Backend"
+                skills="Node.js, Express, PostgreSQL, Prisma, Auth0"
+              />
+              <SkillsTableRow
+                label="Cloud & DevOps"
+                skills="Render, Cloudflare, Vercel, AWS S3"
+              />
+              <SkillsTableRow
+                label="Testing & Tooling"
+                skills="Git, GitHub, pnpm, Jest, Storybook, Postman, Prettier, ESLint, CI/CD"
+              />
+              <SkillsTableRow
+                label="AI-Assisted Engineering"
+                skills="Cursor, ChatGPT"
+              />
+              <SkillsTableRow
+                label="Languages"
+                skills="English (native), Portuguese & Spanish (near-native)"
+              />
+            </SkillsTable>
           </ResumeSection>
           <ResumeSection title="Education">
             <ResumeExperienceorEducationItem
@@ -304,5 +332,18 @@ function ResumeCertificationItem({ certification, entity, dates }) {
         <span>{dates}</span>
       </p>
     </div>
+  );
+}
+
+function SkillsTable({ children }) {
+  return <table className="skills-table">{children}</table>;
+}
+
+function SkillsTableRow({ label, skills }) {
+  return (
+    <tr className="skills-table-row">
+      <td>{label}:</td>
+      <td>{skills}</td>
+    </tr>
   );
 }
