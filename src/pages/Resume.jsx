@@ -146,25 +146,25 @@ export default function Resume() {
                   feedback and training
                 </li>
                 <li>
-                  Implemented with <strong>React</strong>, <strong>Node</strong>
-                  , <strong>Express</strong>, <strong>PostgreSQL</strong>,{" "}
+                  Tech stack: <strong>React</strong>, <strong>Node</strong>,{" "}
+                  <strong>Express</strong>, <strong>PostgreSQL</strong>,{" "}
                   <strong>Prisma</strong>, deployed on <strong>Render</strong>
                 </li>
                 <li>
-                  Developed UI & database for audio, transcripts, & thousands of
-                  accent annotations & quiz trials
+                  Developed UI components and data models for audio playback,
+                  transcript annotation, & quiz
                 </li>
                 <li>
-                  Deliver continuous product improvements based on client
-                  feedback, actual usage, & server logs
+                  Iterate quickly based on client feedback, usage patterns, and
+                  server logs
                 </li>
                 <li>
-                  Work informed by 7 years helping 400+ clients and a 200k+
-                  audience
+                  Product decisions informed by 7 years helping 400+ clients and
+                  a 200k+ audience
                 </li>
                 <li>
-                  Adding unit & accessibility tests with <strong>Jest</strong> &{" "}
-                  <strong>Storybook</strong>
+                  Exapnding test coverage and accessibility checks with{" "}
+                  <strong>Jest</strong> and <strong>Storybook</strong>
                 </li>
                 <li>
                   Live app demo and source code available{" "}
