@@ -189,7 +189,7 @@ export default function Resume() {
                   <strong>Led design and testing of automated controls</strong>{" "}
                   for 777X airplane air conditioning system
                 </li>
-                <li>
+                <li style={{ letterSpacing: "-0.006em" }}>
                   <strong>Project-managed HIL test bench build</strong> (1k+
                   signals, 50+ actuators/sensors, system integration)
                 </li>
