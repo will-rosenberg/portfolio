@@ -249,7 +249,7 @@ export default function Resume() {
               />
               <SkillsTableRow
                 label="Testing & Tooling"
-                skills="Git, GitHub, pnpm, Jest, Storybook, Postman, Prettier, ESLint, CI/CD"
+                skills="Git, GitHub, pnpm, Jest, Storybook, Postman, Prettier, ESLint"
               />
               <SkillsTableRow
                 label="AI-Assisted Engineering"
