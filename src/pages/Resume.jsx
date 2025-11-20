@@ -217,10 +217,13 @@ export default function Resume() {
             >
               <ul>
                 <li>
-                  Added remote data acquisition & control to hydraulic test
-                  bench using LabVIEW & NI cDAQ
+                  Developed data acquisition & control logic for a lab test
+                  system using LabVIEW
                 </li>
-                <li>Completed Design of Experiments training</li>
+                <li>
+                  Contributed to structured experiment planning, test execution,
+                  and root-cause analysis
+                </li>
               </ul>
             </ResumeExperienceorEducationItem>
           </ResumeSection>
