@@ -55,7 +55,7 @@ export default function Resume() {
             padding-top: 0in;
             padding-bottom: 0in;
             line-height: 1; 
-            font-size: 1.1em;
+            font-size: 1em;
           }
           .resume-body {
             display: flex;
@@ -74,7 +74,7 @@ export default function Resume() {
             margin-bottom: 0;
           }
           .resume-section + .resume-section {
-            margin-top: 0.05in;
+            margin-top: 0.06in;
           }
           .resume-experience-item + .resume-experience-item {
             margin-top: 0.1in;
@@ -85,7 +85,7 @@ export default function Resume() {
           .skills-table {
             width: 100%;
             border-collapse: collapse;
-            margin-left: 0.25in;
+            margin-left: 0.2in;
           }
           .skills-table-row + .skills-table-row {
             // border-top: 1px solid #cccccc;
@@ -98,12 +98,19 @@ export default function Resume() {
             padding-top: 0in;
             padding-bottom: 0in;
           }
+          ul {
+            margin-left: 0in;
+            padding-left: 0.3in;
+          }
+          li {
+            line-height: 1.45;
+          }
         `}
       </style>
       <div className="resume-container">
         <div className="resume-header">
           <h1>Will Rosenberg</h1>
-          <p>Full-Stack Engineer - Chicago, IL</p>
+          <p>Full-Stack Engineer – Chicago, IL</p>
           <p>
             <a
               href="https://williamrosenberg.com?utm_source=resume"
@@ -151,15 +158,15 @@ export default function Resume() {
                 </li>
                 <li>
                   Developed UI components and data models for audio playback,
-                  transcript annotation, & quiz
+                  transcript annotation, & quizzes
                 </li>
                 <li>
                   Iterate quickly based on client feedback, usage patterns, and
                   server logs
                 </li>
                 <li>
-                  Product decisions informed by 7 years helping 400+ clients and
-                  a 200k+ audience
+                  Product decisions informed by 7 years coaching 400+ clients
+                  and a 200k+ audience
                 </li>
                 <li>
                   Expanding test coverage and accessibility checks with{" "}
@@ -196,7 +203,7 @@ export default function Resume() {
                   Wrote and ran validation tests, reviewed engineering changes
                 </li>
                 <li>
-                  Represented my system in alert/indication reviews, defining
+                  Represented the system in alert/indication reviews, defining
                   data shown to pilots & maintenance
                 </li>
                 <li>
@@ -270,7 +277,7 @@ export default function Resume() {
               dates="2017"
             />
             <ResumeCertificationItem
-              certification="Spanish - DELE C2 - Mastery (near-native across any context)"
+              certification="Spanish - DELE C2 - Mastery (near-native)"
               entity="Instituto Cervantes"
               dates="2014"
             />
